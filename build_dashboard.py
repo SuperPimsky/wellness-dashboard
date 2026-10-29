@@ -73,6 +73,9 @@ weight_delta = None
 if weight_latest is not None and weight_prior is not None:
     weight_delta = round(weight_latest - weight_prior, 1)
 
+trend = d.get("trend", {})
+focus = d.get("focus")  # short string: today's most relevant callout, agent-written
+
 def contrib_row(label, val):
     return f"""<div class="crow"><span>{label}</span>
       <div class="cbar"><div class="cfill" style="width:{val or 0}%;background:{score_color(val)}"></div></div>
@@ -117,12 +120,16 @@ html = f"""<!DOCTYPE html>
   .note {{ color: #666; font-size: 0.75rem; margin-top: 8px; }}
   .pos {{ color: #2ecc71; }}
   .neg {{ color: #e74c3c; }}
+  .focus {{ border-color: #5dade2; background: #11212e; }}
+  .focustext {{ font-size: 0.95rem; line-height: 1.4; }}
   footer {{ text-align: center; color: #555; font-size: 0.7rem; margin-top: 30px; }}
 </style>
 </head>
 <body>
 <h1>Daily Wellness</h1>
-<div class="sub">{today_label} · auto-generated</div>
+<div class="sub">{today_label} · auto-generated · last refresh {datetime.now().strftime('%-I:%M %p')}</div>
+
+{f'<div class="card full focus"><h2>Today\'s Focus</h2><div class="focustext">{focus}</div></div>' if focus else ''}
 
 <div class="grid">
   <div class="card">
@@ -156,6 +163,16 @@ html = f"""<!DOCTYPE html>
     <div class="metricrow"><span>14-day change</span>
       <span class="v {'pos' if (weight_delta or 0) < 0 else ('neg' if (weight_delta or 0) > 0 else '')}">{('+' if (weight_delta or 0) > 0 else '') + str(weight_delta) + ' ' + weight_unit if weight_delta is not None else '—'}</span></div>
     <div class="note">{stress if stress else 'Stress score: not wired yet (Oura daily stress endpoint pending)'}</div>
+  </div>
+
+  <div class="card full">
+    <h2>Weight Trend & Projection</h2>
+    <div class="metricrow"><span>Trend weight (smoothed)</span><span class="v">{trend.get('trend_weight', '—')} {weight_unit}</span></div>
+    <div class="metricrow"><span>Weekly rate</span><span class="v">{trend.get('weekly_rate_lb', '—')} {weight_unit}/wk</span></div>
+    <div class="metricrow"><span>Goal</span><span class="v">{trend.get('goal_weight', '—')} {weight_unit} by {trend.get('goal_date', '—')}</span></div>
+    <div class="metricrow"><span>Projected arrival</span>
+      <span class="v {'pos' if trend.get('on_pace') else 'neg'}">{trend.get('projected_goal_date', '—')}</span></div>
+    <div class="note">{trend.get('note', 'Smoothed trend (EMA, Happy Scale-style) filters day-to-day water/food noise out of the raw scale number.')}</div>
   </div>
 
   <div class="card">
