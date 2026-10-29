@@ -36,12 +36,20 @@
   .neg { color: #e74c3c; }
   .focus { border-color: #5dade2; background: #11212e; }
   .focustext { font-size: 0.95rem; line-height: 1.4; }
+  .streakrow { display: flex; align-items: center; gap: 14px; }
+  .flame { font-size: 1.8rem; font-weight: 700; }
+  .statuspill { padding: 6px 14px; border-radius: 999px; font-size: 0.85rem; font-weight: 600; }
+  .status-push { background: #1e4620; color: #6fd37a; }
+  .status-moderate { background: #3a3418; color: #e8d26a; }
+  .status-light { background: #2a2f3a; color: #8fb3e8; }
+  .status-rest { background: #3a2020; color: #e88a8a; }
+  .status- { background: #22262b; color: #999; }
   footer { text-align: center; color: #555; font-size: 0.7rem; margin-top: 30px; }
 </style>
 </head>
 <body>
 <h1>Daily Wellness</h1>
-<div class="sub">2026-10-28 · auto-generated · last refresh 10:48 PM</div>
+<div class="sub">2026-10-28 · auto-generated · last refresh 11:16 PM</div>
 
 <div class="card full focus"><h2>Today&#39;s Focus</h2><div class="focustext">Weight loss has stalled: trend rate is only -0.19 lb/wk over the last 2 weeks vs. the 1 lb/wk target behind your Calibrated Energy number. At this pace you hit 155 lb around April 2030, three years past the June 2027 goal. Recovery and sleep are fine (readiness 86, one training session this week) — the gap is energy balance, not recovery. Worth a hard look at logging compliance or a bigger deficit with the nutritionist.</div></div>
 
@@ -133,6 +141,15 @@
     <div class="metricrow"><span>Projected arrival</span>
       <span class="v neg">~Apr 2030 at current rate</span></div>
     <div class="note">EMA trend (alpha=0.1, Happy Scale-style), 14-day rate. Target pace is -1 lb/wk; current pace is well off that.</div>
+  </div>
+
+  <div class="card full">
+    <h2>Streak & Status</h2>
+    <div class="streakrow">
+      <div class="flame">🔥 3</div>
+      <div class="statuspill status-moderate">Moderate</div>
+    </div>
+    <div class="note" style="font-size:0.85rem;color:#ccc;margin-top:8px;">Readiness is high (86) and it's been 3 days since your last session — your body's ready for a real push, not just a walk. No shame in the gap, just don't let it become a habit.</div>
   </div>
 
   <div class="card">

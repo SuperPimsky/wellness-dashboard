@@ -75,6 +75,7 @@ if weight_latest is not None and weight_prior is not None:
 
 trend = d.get("trend", {})
 focus = d.get("focus")  # short string: today's most relevant callout, agent-written
+streak = d.get("streak", {})  # Gentler Streak-style: {current_streak, status, message}
 
 def contrib_row(label, val):
     return f"""<div class="crow"><span>{label}</span>
@@ -122,6 +123,14 @@ html = f"""<!DOCTYPE html>
   .neg {{ color: #e74c3c; }}
   .focus {{ border-color: #5dade2; background: #11212e; }}
   .focustext {{ font-size: 0.95rem; line-height: 1.4; }}
+  .streakrow {{ display: flex; align-items: center; gap: 14px; }}
+  .flame {{ font-size: 1.8rem; font-weight: 700; }}
+  .statuspill {{ padding: 6px 14px; border-radius: 999px; font-size: 0.85rem; font-weight: 600; }}
+  .status-push {{ background: #1e4620; color: #6fd37a; }}
+  .status-moderate {{ background: #3a3418; color: #e8d26a; }}
+  .status-light {{ background: #2a2f3a; color: #8fb3e8; }}
+  .status-rest {{ background: #3a2020; color: #e88a8a; }}
+  .status- {{ background: #22262b; color: #999; }}
   footer {{ text-align: center; color: #555; font-size: 0.7rem; margin-top: 30px; }}
 </style>
 </head>
@@ -173,6 +182,15 @@ html = f"""<!DOCTYPE html>
     <div class="metricrow"><span>Projected arrival</span>
       <span class="v {'pos' if trend.get('on_pace') else 'neg'}">{trend.get('projected_goal_date', '—')}</span></div>
     <div class="note">{trend.get('note', 'Smoothed trend (EMA, Happy Scale-style) filters day-to-day water/food noise out of the raw scale number.')}</div>
+  </div>
+
+  <div class="card full">
+    <h2>Streak & Status</h2>
+    <div class="streakrow">
+      <div class="flame">🔥 {streak.get('current_streak', '—')}</div>
+      <div class="statuspill status-{str(streak.get('status','')).lower()}">{streak.get('status', '—')}</div>
+    </div>
+    <div class="note" style="font-size:0.85rem;color:#ccc;margin-top:8px;">{streak.get('message') or 'Rest days you actually need keep the streak alive, too — this is about consistency, not perfection.'}</div>
   </div>
 
   <div class="card">
