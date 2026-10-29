@@ -34,12 +34,16 @@
   .note { color: #666; font-size: 0.75rem; margin-top: 8px; }
   .pos { color: #2ecc71; }
   .neg { color: #e74c3c; }
+  .focus { border-color: #5dade2; background: #11212e; }
+  .focustext { font-size: 0.95rem; line-height: 1.4; }
   footer { text-align: center; color: #555; font-size: 0.7rem; margin-top: 30px; }
 </style>
 </head>
 <body>
 <h1>Daily Wellness</h1>
-<div class="sub">2026-10-28 · auto-generated</div>
+<div class="sub">2026-10-28 · auto-generated · last refresh 10:48 PM</div>
+
+<div class="card full focus"><h2>Today&#39;s Focus</h2><div class="focustext">Weight loss has stalled: trend rate is only -0.19 lb/wk over the last 2 weeks vs. the 1 lb/wk target behind your Calibrated Energy number. At this pace you hit 155 lb around April 2030, three years past the June 2027 goal. Recovery and sleep are fine (readiness 86, one training session this week) — the gap is energy balance, not recovery. Worth a hard look at logging compliance or a bigger deficit with the nutritionist.</div></div>
 
 <div class="grid">
   <div class="card">
@@ -119,6 +123,16 @@
     <div class="metricrow"><span>14-day change</span>
       <span class="v pos">-2.5 lb</span></div>
     <div class="note">Stress score: not wired yet (Oura daily stress endpoint pending)</div>
+  </div>
+
+  <div class="card full">
+    <h2>Weight Trend & Projection</h2>
+    <div class="metricrow"><span>Trend weight (smoothed)</span><span class="v">189.7 lb</span></div>
+    <div class="metricrow"><span>Weekly rate</span><span class="v">-0.19 lb/wk</span></div>
+    <div class="metricrow"><span>Goal</span><span class="v">155 lb by 2027-06-01</span></div>
+    <div class="metricrow"><span>Projected arrival</span>
+      <span class="v neg">~Apr 2030 at current rate</span></div>
+    <div class="note">EMA trend (alpha=0.1, Happy Scale-style), 14-day rate. Target pace is -1 lb/wk; current pace is well off that.</div>
   </div>
 
   <div class="card">

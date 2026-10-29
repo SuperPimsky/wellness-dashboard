@@ -129,7 +129,7 @@ html = f"""<!DOCTYPE html>
 <h1>Daily Wellness</h1>
 <div class="sub">{today_label} · auto-generated · last refresh {datetime.now().strftime('%-I:%M %p')}</div>
 
-{f'<div class="card full focus"><h2>Today\'s Focus</h2><div class="focustext">{focus}</div></div>' if focus else ''}
+{('<div class="card full focus"><h2>Today&#39;s Focus</h2><div class="focustext">' + focus + '</div></div>') if focus else ''}
 
 <div class="grid">
   <div class="card">
