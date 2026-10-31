@@ -1,32 +1,50 @@
 {
   "date": "2026-10-31",
-  "focus": "Weight pace is still too slow for the 155-by-June-2027 target: trend weight is 188.9 lb, dropping only ~0.6 lb/wk when you need closer to 1.0 lb/wk \u2014 current rate projects arrival around Nov 2027, about 5 months late. Training's stalled too: 6 days since your last session (Oct 25), with readiness sitting at 81 and sleep/recovery otherwise fine \u2014 nothing physical is holding this up, it's just time to get back in.",
+  "focus": "Readiness dropped to 64 this morning off a rough night \u2014 sleep score only 50, with the previous-night contributor at just 10 and REM badly disrupted. That's the signal that matters today: back off, don't push. Weight pace is still a secondary issue \u2014 trend weight 188.9 lb, dropping ~0.6 lb/wk vs the ~1.0 lb/wk needed for 155 by June 2027 \u2014 but that's a slower-burn fix, not today's call.",
   "readiness": {
-    "score": 81,
-    "trend": [79, 85, 90, 71, 86, 86, 86, 81],
+    "score": 64,
+    "trend": [
+      85,
+      90,
+      71,
+      86,
+      86,
+      86,
+      81,
+      64
+    ],
     "contributors": {
-      "activity_balance": 94,
-      "body_temperature": 95,
-      "hrv_balance": 86,
-      "previous_day_activity": 84,
-      "previous_night": 62,
-      "recovery_index": 100,
-      "resting_heart_rate": 71,
-      "sleep_balance": 80,
-      "sleep_regularity": 88
+      "activity_balance": 97,
+      "body_temperature": 98,
+      "hrv_balance": 81,
+      "previous_day_activity": 80,
+      "previous_night": 10,
+      "recovery_index": 59,
+      "resting_heart_rate": 55,
+      "sleep_balance": 62,
+      "sleep_regularity": 89
     }
   },
   "sleep": {
-    "score": 71,
-    "trend": [83, 85, 90, 64, 73, 77, 74, 71],
+    "score": 50,
+    "trend": [
+      85,
+      90,
+      64,
+      73,
+      77,
+      74,
+      71,
+      50
+    ],
     "contributors": {
-      "deep_sleep": 97,
-      "efficiency": 67,
-      "latency": 1,
-      "rem_sleep": 75,
-      "restfulness": 60,
+      "deep_sleep": 51,
+      "efficiency": 55,
+      "latency": 86,
+      "rem_sleep": 11,
+      "restfulness": 74,
       "timing": 100,
-      "total_sleep": 80
+      "total_sleep": 25
     }
   },
   "nutrition": {
@@ -50,7 +68,7 @@
     "unit": "lb"
   },
   "trend": {
-    "trend_weight": 188.9,
+    "trend_weight": 188.85,
     "weekly_rate_lb": -0.62,
     "goal_weight": 155,
     "goal_date": "2027-06-01",
@@ -60,7 +78,7 @@
   },
   "streak": {
     "current_streak": 3,
-    "status": "Push",
-    "message": "Holding at 3 \u2014 readiness is high (81) and recovery's fine, so this isn't about needing rest, it's just been 6 days since the last lift. No guilt, just go train when you get a window today."
+    "status": "Rest",
+    "message": "Holding at 3 \u2014 last night was a genuinely bad one for sleep (score 50, almost no REM), and readiness followed it down to 64. That's exactly what a rest day looks like, not a gap in the streak. Train when a real recovered day shows up, not today."
   }
 }
