@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-30",
-  "focus": "Weight pace is still off your 155-by-June-2027 target: trend weight is 189.1 lb, dropping only ~0.5 lb/wk when you need closer to 1.1 lb/wk to make the date — current rate projects arrival around Jan 2028. Readiness is solid at 81; sleep efficiency was rough last night (67, long latency falling asleep). It's been 5 days since your last session — good day to train. Calories/protein still behind for today with hours left (1342/1753 kcal, 96/150g protein).",
+  "date": "2026-10-31",
+  "focus": "Weight pace is still too slow for the 155-by-June-2027 target: trend weight is 188.9 lb, dropping only ~0.6 lb/wk when you need closer to 1.0 lb/wk \u2014 current rate projects arrival around Nov 2027, about 5 months late. Training's stalled too: 6 days since your last session (Oct 25), with readiness sitting at 81 and sleep/recovery otherwise fine \u2014 nothing physical is holding this up, it's just time to get back in.",
   "readiness": {
     "score": 81,
     "trend": [79, 85, 90, 71, 86, 86, 86, 81],
@@ -30,37 +30,37 @@
     }
   },
   "nutrition": {
-    "calories_logged": 1342.33,
+    "calories_logged": 0.0,
     "calories_target": 1752.91,
-    "protein_logged": 96.46,
+    "protein_logged": 0.0,
     "protein_target": 150,
-    "water_logged": 36.01,
+    "water_logged": 0.0,
     "water_target": 125
   },
   "training": {
     "sessions_7d": 1,
     "last_workout": {
       "date": "2026-10-25",
-      "title": "Strength — Full Body (posterior chain test)"
+      "title": "Strength \u2014 Full Body (posterior chain test)"
     }
   },
   "weight": {
     "latest": 186.9,
-    "prior": 189.9,
+    "prior": 189.8,
     "unit": "lb"
   },
   "trend": {
-    "trend_weight": 189.1,
-    "weekly_rate_lb": -0.53,
+    "trend_weight": 188.9,
+    "weekly_rate_lb": -0.62,
     "goal_weight": 155,
     "goal_date": "2027-06-01",
-    "projected_goal_date": "2028-01-23",
+    "projected_goal_date": "2027-11-17",
     "on_pace": false,
-    "note": "Smoothed trend (EMA, Happy Scale-style) filters day-to-day water/food noise out of the raw scale number. Current pace is roughly half the rate needed to hit 155 lb by June 2027."
+    "note": "Smoothed trend (EMA, Happy Scale-style) filters day-to-day water/food noise out of the raw scale number. Current pace is roughly 60% of the rate needed to hit 155 lb by June 2027."
   },
   "streak": {
     "current_streak": 3,
     "status": "Push",
-    "message": "Three days of staying engaged with the plan — readiness is high (81) and it's been long enough since your last lift that today is a strong candidate to train, not a day to feel behind."
+    "message": "Holding at 3 \u2014 readiness is high (81) and recovery's fine, so this isn't about needing rest, it's just been 6 days since the last lift. No guilt, just go train when you get a window today."
   }
 }
