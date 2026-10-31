@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-30",
+  "focus": "Weight pace is still off your 155-by-June-2027 target: trend weight is 189.1 lb, dropping only ~0.5 lb/wk when you need closer to 1.1 lb/wk to make the date — current rate projects arrival around Jan 2028. Readiness is solid at 81; sleep efficiency was rough last night (67, long latency falling asleep). It's been 5 days since your last session — good day to train. Calories/protein still behind for today with hours left (1342/1753 kcal, 96/150g protein).",
+  "readiness": {
+    "score": 81,
+    "trend": [79, 85, 90, 71, 86, 86, 86, 81],
+    "contributors": {
+      "activity_balance": 94,
+      "body_temperature": 95,
+      "hrv_balance": 86,
+      "previous_day_activity": 84,
+      "previous_night": 62,
+      "recovery_index": 100,
+      "resting_heart_rate": 71,
+      "sleep_balance": 80,
+      "sleep_regularity": 88
+    }
+  },
+  "sleep": {
+    "score": 71,
+    "trend": [83, 85, 90, 64, 73, 77, 74, 71],
+    "contributors": {
+      "deep_sleep": 97,
+      "efficiency": 67,
+      "latency": 1,
+      "rem_sleep": 75,
+      "restfulness": 60,
+      "timing": 100,
+      "total_sleep": 80
+    }
+  },
+  "nutrition": {
+    "calories_logged": 1342.33,
+    "calories_target": 1752.91,
+    "protein_logged": 96.46,
+    "protein_target": 150,
+    "water_logged": 36.01,
+    "water_target": 125
+  },
+  "training": {
+    "sessions_7d": 1,
+    "last_workout": {
+      "date": "2026-10-25",
+      "title": "Strength — Full Body (posterior chain test)"
+    }
+  },
+  "weight": {
+    "latest": 186.9,
+    "prior": 189.9,
+    "unit": "lb"
+  },
+  "trend": {
+    "trend_weight": 189.1,
+    "weekly_rate_lb": -0.53,
+    "goal_weight": 155,
+    "goal_date": "2027-06-01",
+    "projected_goal_date": "2028-01-23",
+    "on_pace": false,
+    "note": "Smoothed trend (EMA, Happy Scale-style) filters day-to-day water/food noise out of the raw scale number. Current pace is roughly half the rate needed to hit 155 lb by June 2027."
+  },
+  "streak": {
+    "current_streak": 3,
+    "status": "Push",
+    "message": "Three days of staying engaged with the plan — readiness is high (81) and it's been long enough since your last lift that today is a strong candidate to train, not a day to feel behind."
+  }
+}
