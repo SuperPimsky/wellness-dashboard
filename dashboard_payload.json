@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-01",
+  "focus": "Weight trend is 188.3 lb, dropping a solid ~0.9 lb/wk \u2014 but that pace lands you at 155 around mid-July 2027, roughly 7 weeks behind the June 1 goal, so the rate needs a small bump, not panic. Bigger flag: it's been 7 days since your last session (Oct 25) with readiness sitting at 86 the whole stretch \u2014 if that RDL leg tweak has settled, today's a good day to get back under load.",
+  "readiness": {
+    "score": 86,
+    "trend": [90, 71, 86, 86, 86, 81, 69, 86],
+    "contributors": {
+      "activity_balance": 99,
+      "body_temperature": 76,
+      "hrv_balance": 87,
+      "previous_day_activity": 91,
+      "previous_night": 100,
+      "recovery_index": 100,
+      "resting_heart_rate": 48,
+      "sleep_balance": 83,
+      "sleep_regularity": 89
+    }
+  },
+  "sleep": {
+    "score": 86,
+    "trend": [90, 64, 73, 77, 74, 71, 61, 86],
+    "contributors": {
+      "deep_sleep": 96,
+      "efficiency": 74,
+      "latency": 91,
+      "rem_sleep": 96,
+      "restfulness": 51,
+      "timing": 95,
+      "total_sleep": 93
+    }
+  },
+  "nutrition": {
+    "calories_logged": 10,
+    "calories_target": 1752.91,
+    "protein_logged": 0,
+    "protein_target": 150,
+    "water_logged": 12,
+    "water_target": 125
+  },
+  "training": {
+    "sessions_7d": 0,
+    "last_workout": {
+      "date": "2026-10-25",
+      "title": "Strength \u2014 Full Body (posterior chain test)"
+    }
+  },
+  "weight": {
+    "latest": 184.6,
+    "prior": 191.2,
+    "unit": "lb"
+  },
+  "trend": {
+    "trend_weight": 188.34,
+    "weekly_rate_lb": -0.898,
+    "goal_weight": 155,
+    "goal_date": "2027-06-01",
+    "projected_goal_date": "2027-07-18",
+    "on_pace": false,
+    "note": "Smoothed (EMA) trend is losing ~0.9 lb/wk vs the ~1.1 lb/wk needed from here to hit 155 by June 1 \u2014 close, not broken, but projects about 7 weeks late at the current rate."
+  },
+  "streak": {
+    "current_streak": 0,
+    "status": "Push",
+    "message": "Seven days since your last session with readiness strong the whole time (86 today) \u2014 that's a gap, not a deserved rest. If the RDL leg tweak has settled, today's a good day to get back under the bar; if it hasn't, say so and we'll adjust the plan instead of pushing through it."
+  }
+}
