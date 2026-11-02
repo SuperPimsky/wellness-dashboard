@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "focus": "Weight trend is 188.3 lb, dropping a solid ~0.9 lb/wk \u2014 but that pace lands you at 155 around mid-July 2027, roughly 7 weeks behind the June 1 goal, so the rate needs a small bump, not panic. Bigger flag: it's been 7 days since your last session (Oct 25) with readiness sitting at 86 the whole stretch \u2014 if that RDL leg tweak has settled, today's a good day to get back under load.",
+  "focus": "Weight trend is 188.3 lb, dropping a solid ~0.9 lb/wk \u2014 that pace lands you at 155 around mid-July 2027, roughly 7 weeks behind the June 1 goal, so the rate needs a small bump, not panic. Bigger flag: it's been 7 days since your last session (Oct 25) with readiness sitting at 86 today \u2014 if that RDL leg tweak has settled, today's a good day to get back under load.",
   "readiness": {
     "score": 86,
     "trend": [90, 71, 86, 86, 86, 81, 69, 86],
@@ -30,23 +30,23 @@
     }
   },
   "nutrition": {
-    "calories_logged": 10,
+    "calories_logged": 360,
     "calories_target": 1752.91,
-    "protein_logged": 0,
+    "protein_logged": 19,
     "protein_target": 150,
     "water_logged": 12,
     "water_target": 125
   },
   "training": {
-    "sessions_7d": 0,
+    "sessions_7d": 1,
     "last_workout": {
       "date": "2026-10-25",
       "title": "Strength \u2014 Full Body (posterior chain test)"
     }
   },
   "weight": {
-    "latest": 184.6,
-    "prior": 191.2,
+    "latest": 184.63,
+    "prior": 191.17,
     "unit": "lb"
   },
   "trend": {
