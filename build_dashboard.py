@@ -89,49 +89,65 @@ html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Wellness">
+<meta name="theme-color" content="#0b0d10">
 <title>Michael's Daily Wellness — {today_label}</title>
 <style>
   :root {{ color-scheme: dark; }}
   * {{ box-sizing: border-box; }}
   body {{
     background: #0b0d10; color: #e8e8e8; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    margin: 0; padding: 20px; max-width: 720px; margin-inline: auto;
+    margin: 0; padding: max(16px, env(safe-area-inset-top)) max(16px, env(safe-area-inset-right))
+             max(24px, env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left));
+    max-width: 920px; margin-inline: auto;
+    font-size: clamp(15px, 1.1vw + 0.7rem, 19px);
   }}
-  h1 {{ font-size: 1.4rem; margin-bottom: 2px; }}
-  .sub {{ color: #888; font-size: 0.85rem; margin-bottom: 20px; }}
-  .grid {{ display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 20px; }}
+  h1 {{ font-size: clamp(1.3rem, 1.6vw + 0.9rem, 1.9rem); margin-bottom: 2px; }}
+  .sub {{ color: #888; font-size: 0.85em; margin-bottom: 20px; }}
+  .grid {{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 12px; margin-bottom: 20px;
+  }}
   .card {{
     background: #16191d; border-radius: 14px; padding: 16px; border: 1px solid #22262b;
+    min-width: 0;
   }}
   .card.full {{ grid-column: 1 / -1; }}
-  .card h2 {{ font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: #9aa0a6; margin: 0 0 8px; }}
-  .bigscore {{ font-size: 2.6rem; font-weight: 700; line-height: 1; }}
-  .label {{ color: #9aa0a6; font-size: 0.8rem; margin-top: 2px; }}
-  .spark {{ font-size: 1.3rem; letter-spacing: 1px; color: #5dade2; margin-top: 6px; }}
-  .crow {{ display: flex; align-items: center; gap: 8px; font-size: 0.78rem; margin: 4px 0; }}
+  .card h2 {{ font-size: 0.8em; text-transform: uppercase; letter-spacing: 0.05em; color: #9aa0a6; margin: 0 0 8px; }}
+  .bigscore {{ font-size: clamp(2.2rem, 2.4vw + 1.6rem, 3.4rem); font-weight: 700; line-height: 1; }}
+  .label {{ color: #9aa0a6; font-size: 0.8em; margin-top: 2px; }}
+  .spark {{ font-size: clamp(1.1rem, 1.2vw + 0.8rem, 1.6rem); letter-spacing: 1px; color: #5dade2; margin-top: 6px; }}
+  .crow {{ display: flex; align-items: center; gap: 8px; font-size: 0.78em; margin: 4px 0; }}
   .crow span:first-child {{ flex: 0 0 110px; color: #9aa0a6; }}
   .cbar {{ flex: 1; background: #22262b; border-radius: 4px; height: 6px; overflow: hidden; }}
   .cfill {{ height: 100%; border-radius: 4px; }}
   .cval {{ flex: 0 0 28px; text-align: right; }}
-  .metricrow {{ display: flex; justify-content: space-between; font-size: 0.9rem; margin: 6px 0; }}
+  .metricrow {{ display: flex; justify-content: space-between; font-size: 0.9em; margin: 6px 0; }}
   .metricrow .v {{ font-weight: 600; }}
   .bar {{ background: #22262b; border-radius: 6px; height: 10px; overflow: hidden; margin-top: 4px; }}
   .barfill {{ height: 100%; border-radius: 6px; background: #5dade2; }}
-  .note {{ color: #666; font-size: 0.75rem; margin-top: 8px; }}
+  .note {{ color: #666; font-size: 0.75em; margin-top: 8px; }}
   .pos {{ color: #2ecc71; }}
   .neg {{ color: #e74c3c; }}
   .focus {{ border-color: #5dade2; background: #11212e; }}
-  .focustext {{ font-size: 0.95rem; line-height: 1.4; }}
-  .streakrow {{ display: flex; align-items: center; gap: 14px; }}
-  .flame {{ font-size: 1.8rem; font-weight: 700; }}
-  .statuspill {{ padding: 6px 14px; border-radius: 999px; font-size: 0.85rem; font-weight: 600; }}
+  .focustext {{ font-size: 1em; line-height: 1.4; }}
+  .streakrow {{ display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }}
+  .flame {{ font-size: clamp(1.5rem, 1.5vw + 1.1rem, 2.1rem); font-weight: 700; }}
+  .statuspill {{ padding: 6px 14px; border-radius: 999px; font-size: 0.85em; font-weight: 600; }}
   .status-push {{ background: #1e4620; color: #6fd37a; }}
   .status-moderate {{ background: #3a3418; color: #e8d26a; }}
   .status-light {{ background: #2a2f3a; color: #8fb3e8; }}
   .status-rest {{ background: #3a2020; color: #e88a8a; }}
   .status- {{ background: #22262b; color: #999; }}
-  footer {{ text-align: center; color: #555; font-size: 0.7rem; margin-top: 30px; }}
+  footer {{ text-align: center; color: #555; font-size: 0.7em; margin-top: 30px; }}
+  @media (min-width: 680px) {{
+    .grid {{ grid-template-columns: repeat(3, 1fr); }}
+    .card.full {{ grid-column: 1 / -1; }}
+  }}
 </style>
 </head>
 <body>
