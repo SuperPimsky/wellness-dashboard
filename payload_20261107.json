@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-07",
+  "focus": "13 days since your last Hevy session (10/25 full body) and readiness is holding at 77 \u2014 this isn't a recovery gap anymore, it's a consistency gap. Good news: weight trend is running ahead of pace at -1.29 lb/wk, projecting 155 lb by early May 2027, a month clear of the June goal.",
+  "readiness": {
+    "score": 77,
+    "trend": [81, 69, 86, 71, 90, 84, 82, 77],
+    "contributors": {
+      "activity_balance": 98,
+      "body_temperature": 96,
+      "hrv_balance": 85,
+      "previous_day_activity": 76,
+      "previous_night": 83,
+      "recovery_index": 50,
+      "resting_heart_rate": 72,
+      "sleep_balance": 69,
+      "sleep_regularity": 87
+    }
+  },
+  "sleep": {
+    "score": 79,
+    "trend": [71, 61, 86, 61, 83, 76, 74, 79],
+    "contributors": {
+      "deep_sleep": 96,
+      "efficiency": 96,
+      "latency": 83,
+      "rem_sleep": 71,
+      "restfulness": 82,
+      "timing": 100,
+      "total_sleep": 63
+    }
+  },
+  "nutrition": {
+    "calories_logged": 0,
+    "calories_target": 1752.91,
+    "protein_logged": 0,
+    "protein_target": 150,
+    "water_logged": 0,
+    "water_target": 125
+  },
+  "training": {
+    "sessions_7d": 0,
+    "last_workout": {
+      "date": "2026-10-25",
+      "title": "Strength \u2014 Full Body (posterior chain test)"
+    }
+  },
+  "weight": {
+    "latest": 186.8,
+    "prior": 190.3,
+    "unit": "lb"
+  },
+  "trend": {
+    "trend_weight": 187.37,
+    "weekly_rate_lb": -1.29,
+    "goal_weight": 155,
+    "goal_date": "2027-06-01",
+    "projected_goal_date": "2027-05-01",
+    "on_pace": true,
+    "note": "Smoothed trend (EMA, Happy Scale-style) filters day-to-day water/food noise out of the raw scale number. Currently running ahead of the pace needed to hit 155 lb by June 2027."
+  },
+  "streak": {
+    "current_streak": 0,
+    "status": "Push",
+    "message": "Readiness is solid at 77 and it's been 13 days since your last session \u2014 body's more than ready, so today's the day to get back under the bar."
+  }
+}
