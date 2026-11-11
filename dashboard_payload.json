@@ -1,66 +1,66 @@
 {
-  "date": "2026-11-06",
-  "focus": "12 days since your last Hevy session (10/25 full body) and readiness is sitting at 82 \u2014 no recovery excuse left to stay out from under the bar. Good news elsewhere: weight trend is running ahead of pace at -1.2 lb/wk, projecting to 155 lb by early May 2027, well before the June 2027 goal.",
+  "date": "2026-11-11",
+  "focus": "No red flags today \u2014 readiness is solid at 81 and sleep's fine. The real story is training and pace: only one session in the last 7 days (Nov 8, the illness-reintroduction workout), and trend weight at 187.4 lb is dropping ~1.0 lb/wk, which lands you at 155 around mid-June 2027, about 3 weeks past the June 1 goal. Readiness is good enough to get back on the program today.",
   "readiness": {
-    "score": 82,
-    "trend": [86, 81, 69, 86, 71, 90, 84, 82],
+    "score": 81,
+    "trend": [84, 82, 77, 86, 76, 79, 79, 81],
     "contributors": {
-      "activity_balance": 98,
-      "body_temperature": 94,
-      "hrv_balance": 86,
-      "previous_day_activity": 82,
-      "previous_night": 70,
-      "recovery_index": 57,
-      "resting_heart_rate": 100,
-      "sleep_balance": 77,
-      "sleep_regularity": 87
+      "activity_balance": 80,
+      "body_temperature": 97,
+      "hrv_balance": 87,
+      "previous_day_activity": 78,
+      "previous_night": 75,
+      "recovery_index": 64,
+      "resting_heart_rate": 91,
+      "sleep_balance": 84,
+      "sleep_regularity": 86
     }
   },
   "sleep": {
-    "score": 74,
-    "trend": [74, 71, 61, 86, 61, 83, 76, 74],
+    "score": 76,
+    "trend": [76, 74, 79, 93, 81, 75, 64, 76],
     "contributors": {
-      "deep_sleep": 95,
-      "efficiency": 69,
+      "deep_sleep": 74,
+      "efficiency": 83,
       "latency": 51,
-      "rem_sleep": 67,
-      "restfulness": 57,
-      "timing": 96,
-      "total_sleep": 79
+      "rem_sleep": 72,
+      "restfulness": 82,
+      "timing": 95,
+      "total_sleep": 76
     }
   },
   "nutrition": {
-    "calories_logged": 0,
+    "calories_logged": 1415.41,
     "calories_target": 1752.91,
-    "protein_logged": 0,
+    "protein_logged": 132.46,
     "protein_target": 150,
-    "water_logged": 0,
+    "water_logged": 28.54,
     "water_target": 125
   },
   "training": {
-    "sessions_7d": 0,
+    "sessions_7d": 1,
     "last_workout": {
-      "date": "2026-10-25",
-      "title": "Strength \u2014 Full Body (posterior chain test)"
+      "date": "2026-11-08",
+      "title": "Day B \u2014 Reintroduction + Illness-Light (Nov 8)"
     }
   },
   "weight": {
-    "latest": 187.07,
-    "prior": 188.4,
+    "latest": 186.9,
+    "prior": 187.6,
     "unit": "lb"
   },
   "trend": {
-    "trend_weight": 187.47,
-    "weekly_rate_lb": -1.2,
+    "trend_weight": 187.44,
+    "weekly_rate_lb": -1.03,
     "goal_weight": 155,
     "goal_date": "2027-06-01",
-    "projected_goal_date": "2027-05-09",
-    "on_pace": true,
-    "note": "Smoothed trend (EMA, Happy Scale-style) filters day-to-day water/food noise out of the raw scale number. Currently running ahead of the pace needed to hit 155 lb by June 2027."
+    "projected_goal_date": "2027-06-19",
+    "on_pace": false,
+    "note": "Smoothed trend (EMA, Happy Scale-style) filters day-to-day water/food noise out of the raw scale number. Current pace slips the goal by about 3 weeks \u2014 close, not a red flag."
   },
   "streak": {
-    "current_streak": 0,
+    "current_streak": 2,
     "status": "Push",
-    "message": "Readiness is strong at 82 and it's been 12 days since your last session \u2014 no fatigue excuse left, so today's a good day to get back under the bar."
+    "message": "Readiness is sitting at 81 and it's been 3 days since your last session (the illness-reintroduction one on the 8th) \u2014 your body looks ready for a normal session today. Streak holds at 2; the rest days since getting sick were the right call, not a gap."
   }
 }
