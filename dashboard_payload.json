@@ -1,40 +1,40 @@
 {
-  "date": "2026-11-11",
-  "focus": "No red flags today \u2014 readiness is solid at 81 and sleep's fine. The real story is training and pace: only one session in the last 7 days (Nov 8, the illness-reintroduction workout), and trend weight at 187.4 lb is dropping ~1.0 lb/wk, which lands you at 155 around mid-June 2027, about 3 weeks past the June 1 goal. Readiness is good enough to get back on the program today.",
+  "date": "2026-11-12",
+  "focus": "Rough night (sleep score 63, readiness down to 73) but nothing alarming \u2014 training's fine, only 4 days since the last session. The real one to watch is weight trend: pace has eased to about -0.92 lb/wk, projecting 155 lb around mid-July 2027, roughly 6.5 weeks past the June 1 goal. Tighten the deficit if closing that gap matters to you.",
   "readiness": {
-    "score": 81,
-    "trend": [84, 82, 77, 86, 76, 79, 79, 81],
+    "score": 73,
+    "trend": [82, 77, 86, 76, 79, 79, 81, 73],
     "contributors": {
-      "activity_balance": 80,
-      "body_temperature": 97,
-      "hrv_balance": 87,
-      "previous_day_activity": 78,
-      "previous_night": 75,
-      "recovery_index": 64,
-      "resting_heart_rate": 91,
-      "sleep_balance": 84,
+      "activity_balance": 84,
+      "body_temperature": 95,
+      "hrv_balance": 88,
+      "previous_day_activity": 80,
+      "previous_night": 43,
+      "recovery_index": 35,
+      "resting_heart_rate": 99,
+      "sleep_balance": 69,
       "sleep_regularity": 86
     }
   },
   "sleep": {
-    "score": 76,
-    "trend": [76, 74, 79, 93, 81, 75, 64, 76],
+    "score": 63,
+    "trend": [74, 79, 93, 81, 75, 64, 76, 63],
     "contributors": {
-      "deep_sleep": 74,
-      "efficiency": 83,
-      "latency": 51,
-      "rem_sleep": 72,
-      "restfulness": 82,
-      "timing": 95,
-      "total_sleep": 76
+      "deep_sleep": 88,
+      "efficiency": 97,
+      "latency": 86,
+      "rem_sleep": 43,
+      "restfulness": 88,
+      "timing": 74,
+      "total_sleep": 30
     }
   },
   "nutrition": {
-    "calories_logged": 1415.41,
+    "calories_logged": 0,
     "calories_target": 1752.91,
-    "protein_logged": 132.46,
+    "protein_logged": 0,
     "protein_target": 150,
-    "water_logged": 28.54,
+    "water_logged": 0,
     "water_target": 125
   },
   "training": {
@@ -45,22 +45,22 @@
     }
   },
   "weight": {
-    "latest": 186.9,
+    "latest": 187.7,
     "prior": 187.6,
     "unit": "lb"
   },
   "trend": {
-    "trend_weight": 187.44,
-    "weekly_rate_lb": -1.03,
+    "trend_weight": 187.47,
+    "weekly_rate_lb": -0.92,
     "goal_weight": 155,
     "goal_date": "2027-06-01",
-    "projected_goal_date": "2027-06-19",
+    "projected_goal_date": "2027-07-17",
     "on_pace": false,
-    "note": "Smoothed trend (EMA, Happy Scale-style) filters day-to-day water/food noise out of the raw scale number. Current pace slips the goal by about 3 weeks \u2014 close, not a red flag."
+    "note": "Smoothed trend (EMA, Happy Scale-style) filters day-to-day water/food noise out of the raw scale number. Current pace slips the goal by about 6.5 weeks \u2014 worth tightening, not a crisis."
   },
   "streak": {
-    "current_streak": 2,
-    "status": "Push",
-    "message": "Readiness is sitting at 81 and it's been 3 days since your last session (the illness-reintroduction one on the 8th) \u2014 your body looks ready for a normal session today. Streak holds at 2; the rest days since getting sick were the right call, not a gap."
+    "current_streak": 5,
+    "status": "Moderate",
+    "message": "A rough night (sleep score 63) knocked readiness down to 73, but it's not a reason to sit out \u2014 streak holds at 5. A moderate session fits today; save the heavier stuff for when sleep bounces back."
   }
 }
