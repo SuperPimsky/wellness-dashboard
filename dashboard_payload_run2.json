@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-12",
+  "focus": "Weight trend's steady at -0.92 lb/wk, still projecting ~155 lb mid-July 2027 \u2014 about 6-7 weeks past the June 1 goal. Nothing acute today: readiness bounced back to 83 and sleep's decent at 77, but it's been 4 days since your last session (Nov 8). Good day to train before that gap stretches further.",
+  "readiness": {
+    "score": 83,
+    "trend": [82, 77, 86, 76, 79, 79, 81, 83],
+    "contributors": {
+      "activity_balance": 84,
+      "body_temperature": 100,
+      "hrv_balance": 89,
+      "previous_day_activity": 80,
+      "previous_night": 78,
+      "recovery_index": 64,
+      "resting_heart_rate": 100,
+      "sleep_balance": 77,
+      "sleep_regularity": 86
+    }
+  },
+  "sleep": {
+    "score": 77,
+    "trend": [74, 79, 93, 81, 75, 64, 76, 77],
+    "contributors": {
+      "deep_sleep": 95,
+      "efficiency": 86,
+      "latency": 81,
+      "rem_sleep": 82,
+      "restfulness": 77,
+      "timing": 100,
+      "total_sleep": 60
+    }
+  },
+  "nutrition": {
+    "calories_logged": 0,
+    "calories_target": 1752.91,
+    "protein_logged": 0,
+    "protein_target": 150,
+    "water_logged": 0,
+    "water_target": 125
+  },
+  "training": {
+    "sessions_7d": 1,
+    "last_workout": {
+      "date": "2026-11-08",
+      "title": "Day B \u2014 Reintroduction + Illness-Light (Nov 8)"
+    }
+  },
+  "weight": {
+    "latest": 187.7,
+    "prior": 187.6,
+    "unit": "lb"
+  },
+  "trend": {
+    "trend_weight": 187.47,
+    "weekly_rate_lb": -0.92,
+    "goal_weight": 155,
+    "goal_date": "2027-06-01",
+    "projected_goal_date": "2027-07-17",
+    "on_pace": false,
+    "note": "Smoothed trend (EMA, Happy Scale-style) filters day-to-day water/food noise out of the raw scale number. Current pace slips the goal by about 6.5 weeks \u2014 worth tightening, not a crisis."
+  },
+  "streak": {
+    "current_streak": 5,
+    "status": "Push",
+    "message": "Readiness is back up to 83 and sleep's decent at 77 \u2014 body's recovered. It's been 4 days since your last session (Nov 8), so today's a good day to load it up. Streak holds at 5."
+  }
+}
