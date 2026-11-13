@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-13",
+  "focus": "Weight trend has drifted off pace: -0.86 lb/wk puts you at 155 lb around Aug 2 2027, about 8 weeks past the June 1 goal. You're also 5 days out from your last session (Nov 8, illness-light) \u2014 readiness is still decent at 75 today, so the body's ready whenever you want back in.",
+  "readiness": {
+    "score": 75,
+    "trend": [77, 86, 76, 79, 79, 81, 83, 75],
+    "contributors": {
+      "activity_balance": 87,
+      "body_temperature": 85,
+      "hrv_balance": 91,
+      "previous_day_activity": 80,
+      "previous_night": 58,
+      "recovery_index": 58,
+      "resting_heart_rate": 65,
+      "sleep_balance": 79,
+      "sleep_regularity": 86
+    }
+  },
+  "sleep": {
+    "score": 69,
+    "trend": [79, 93, 81, 75, 64, 76, 77, 69],
+    "contributors": {
+      "deep_sleep": 84,
+      "efficiency": 76,
+      "latency": 29,
+      "rem_sleep": 67,
+      "restfulness": 76,
+      "timing": 100,
+      "total_sleep": 64
+    }
+  },
+  "nutrition": {
+    "calories_logged": 0,
+    "calories_target": 1752.91,
+    "protein_logged": 0,
+    "protein_target": 150,
+    "water_logged": 0,
+    "water_target": 125
+  },
+  "training": {
+    "sessions_7d": 1,
+    "last_workout": {
+      "date": "2026-11-08",
+      "title": "Day B \u2014 Reintroduction + Illness-Light (Nov 8)"
+    }
+  },
+  "weight": {
+    "latest": 186.5,
+    "prior": 186.9,
+    "unit": "lb"
+  },
+  "trend": {
+    "trend_weight": 187.38,
+    "weekly_rate_lb": -0.86,
+    "goal_weight": 155,
+    "goal_date": "2027-06-01",
+    "projected_goal_date": "2027-08-02",
+    "on_pace": false,
+    "note": "Smoothed trend (EMA, Happy Scale-style) filters day-to-day water/food noise out of the raw scale number. Current pace slips the goal by roughly 8 weeks \u2014 worth tightening."
+  },
+  "streak": {
+    "current_streak": 6,
+    "status": "Moderate",
+    "message": "Readiness is still solid at 75 and the illness-light session Nov 8 was the right call while you were under the weather \u2014 streak holds at 6. Sleep's a bit light at 69, so ease back in with a moderate session rather than going all-out."
+  }
+}
