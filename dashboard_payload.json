@@ -1,32 +1,32 @@
 {
   "date": "2026-11-12",
-  "focus": "Rough night (sleep score 63, readiness down to 73) but nothing alarming \u2014 training's fine, only 4 days since the last session. The real one to watch is weight trend: pace has eased to about -0.92 lb/wk, projecting 155 lb around mid-July 2027, roughly 6.5 weeks past the June 1 goal. Tighten the deficit if closing that gap matters to you.",
+  "focus": "Weight trend's steady at -0.92 lb/wk, still projecting ~155 lb mid-July 2027 \u2014 about 6-7 weeks past the June 1 goal. Nothing acute today: readiness bounced back to 83 and sleep's decent at 77, but it's been 4 days since your last session (Nov 8). Good day to train before that gap stretches further.",
   "readiness": {
-    "score": 73,
-    "trend": [82, 77, 86, 76, 79, 79, 81, 73],
+    "score": 83,
+    "trend": [82, 77, 86, 76, 79, 79, 81, 83],
     "contributors": {
       "activity_balance": 84,
-      "body_temperature": 95,
-      "hrv_balance": 88,
+      "body_temperature": 100,
+      "hrv_balance": 89,
       "previous_day_activity": 80,
-      "previous_night": 43,
-      "recovery_index": 35,
-      "resting_heart_rate": 99,
-      "sleep_balance": 69,
+      "previous_night": 78,
+      "recovery_index": 64,
+      "resting_heart_rate": 100,
+      "sleep_balance": 77,
       "sleep_regularity": 86
     }
   },
   "sleep": {
-    "score": 63,
-    "trend": [74, 79, 93, 81, 75, 64, 76, 63],
+    "score": 77,
+    "trend": [74, 79, 93, 81, 75, 64, 76, 77],
     "contributors": {
-      "deep_sleep": 88,
-      "efficiency": 97,
-      "latency": 86,
-      "rem_sleep": 43,
-      "restfulness": 88,
-      "timing": 74,
-      "total_sleep": 30
+      "deep_sleep": 95,
+      "efficiency": 86,
+      "latency": 81,
+      "rem_sleep": 82,
+      "restfulness": 77,
+      "timing": 100,
+      "total_sleep": 60
     }
   },
   "nutrition": {
@@ -60,7 +60,7 @@
   },
   "streak": {
     "current_streak": 5,
-    "status": "Moderate",
-    "message": "A rough night (sleep score 63) knocked readiness down to 73, but it's not a reason to sit out \u2014 streak holds at 5. A moderate session fits today; save the heavier stuff for when sleep bounces back."
+    "status": "Push",
+    "message": "Readiness is back up to 83 and sleep's decent at 77 \u2014 body's recovered. It's been 4 days since your last session (Nov 8), so today's a good day to load it up. Streak holds at 5."
   }
 }
