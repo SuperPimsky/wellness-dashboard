@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-13",
+  "focus": "Weight trend has slipped further: -0.81 lb/wk, now projecting ~155 lb around Aug 21 2027, about 11-12 weeks past the June 1 goal (vs ~6.5 weeks late a few days ago). Readiness and sleep are both fine (83/77), but you haven't trained since Nov 8 (5 days). Tighten adherence and get a session in today \u2014 both levers are open.",
+  "readiness": {
+    "score": 83,
+    "trend": [82, 77, 86, 76, 79, 79, 81, 83],
+    "contributors": {
+      "activity_balance": 84,
+      "body_temperature": 100,
+      "hrv_balance": 89,
+      "previous_day_activity": 80,
+      "previous_night": 78,
+      "recovery_index": 64,
+      "resting_heart_rate": 100,
+      "sleep_balance": 77,
+      "sleep_regularity": 86
+    }
+  },
+  "sleep": {
+    "score": 77,
+    "trend": [74, 79, 93, 81, 75, 64, 76, 77],
+    "contributors": {
+      "deep_sleep": 95,
+      "efficiency": 86,
+      "latency": 81,
+      "rem_sleep": 82,
+      "restfulness": 77,
+      "timing": 100,
+      "total_sleep": 60
+    }
+  },
+  "nutrition": {
+    "calories_logged": 0,
+    "calories_target": 1752.91,
+    "protein_logged": 0,
+    "protein_target": 150,
+    "water_logged": 0,
+    "water_target": 125
+  },
+  "training": {
+    "sessions_7d": 1,
+    "last_workout": {
+      "date": "2026-11-08",
+      "title": "Day B \u2014 Reintroduction + Illness-Light (Nov 8)"
+    }
+  },
+  "weight": {
+    "latest": 187.73,
+    "prior": 186.92,
+    "unit": "lb"
+  },
+  "trend": {
+    "trend_weight": 187.49,
+    "weekly_rate_lb": -0.81,
+    "goal_weight": 155,
+    "goal_date": "2027-06-01",
+    "projected_goal_date": "2027-08-21",
+    "on_pace": false,
+    "note": "Smoothed trend (EMA, Happy Scale-style) filters day-to-day water/food noise out of the raw scale number. Current pace slips the goal by roughly 11-12 weeks \u2014 worth tightening."
+  },
+  "streak": {
+    "current_streak": 6,
+    "status": "Push",
+    "message": "Readiness is strong at 83 and sleep's solid at 77 \u2014 body's fully recovered and ready to load. It's been 5 days since your last session (Nov 8), so today's a good day to get back under the bar. Streak holds at 6."
+  }
+}
