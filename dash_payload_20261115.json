@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-15",
+  "focus": "Trend weight is 187.2 lb, down to -0.56 lb/wk (slower than last week's -0.73) which now projects 155 lb around late Dec 2027 \u2014 still well behind the June 2027 goal, so the deficit needs tightening again. Readiness is excellent at 91 and you already got a solid full-body strength session in today \u2014 good day, keep building on it.",
+  "readiness": {
+    "score": 91,
+    "trend": [86, 76, 79, 79, 81, 83, 75, 91],
+    "contributors": {
+      "activity_balance": 96,
+      "body_temperature": 100,
+      "hrv_balance": 92,
+      "previous_day_activity": 91,
+      "previous_night": 90,
+      "recovery_index": 87,
+      "resting_heart_rate": 100,
+      "sleep_balance": 84,
+      "sleep_regularity": 89
+    }
+  },
+  "sleep": {
+    "score": 82,
+    "trend": [93, 81, 75, 64, 76, 77, 69, 82],
+    "contributors": {
+      "deep_sleep": 97,
+      "efficiency": 76,
+      "latency": 10,
+      "rem_sleep": 71,
+      "restfulness": 78,
+      "timing": 91,
+      "total_sleep": 100
+    }
+  },
+  "nutrition": {
+    "calories_logged": 0,
+    "calories_target": 1752.91,
+    "protein_logged": 0,
+    "protein_target": 150,
+    "water_logged": 0,
+    "water_target": 125
+  },
+  "training": {
+    "sessions_7d": 2,
+    "last_workout": {
+      "date": "2026-11-15",
+      "title": "Strength \u2014 Full Body (posterior chain test)"
+    }
+  },
+  "weight": {
+    "latest": 186.6,
+    "prior": 186.1,
+    "unit": "lb"
+  },
+  "trend": {
+    "trend_weight": 187.23,
+    "weekly_rate_lb": -0.56,
+    "goal_weight": 155,
+    "goal_date": "2027-06-01",
+    "projected_goal_date": "2027-12-24",
+    "on_pace": false,
+    "note": "EMA trend weight down from 188.3 lb to 187.2 lb over 14 days; rate eased from -0.73 to -0.56 lb/wk, pushing the 155 lb projection to late Dec 2027, about 7 months past the June goal."
+  },
+  "streak": {
+    "current_streak": 1,
+    "status": "Light",
+    "message": "You're back under the bar \u2014 solid full-body session today after the reintroduction week, and readiness at 91 says the body's fully recovered. No need to go harder today; let this one count and build from here."
+  }
+}
