@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-16",
+  "focus": "Trend weight is 187.0 lb, rate eased to -0.46 lb/wk (from -0.56 last week), pushing the 155 lb projection out to mid-March 2028 \u2014 further behind the June 2027 goal than yesterday, not closer. Readiness (79) and sleep are fine; the deficit is the thing that needs tightening, not training or recovery.",
+  "readiness": {
+    "score": 79,
+    "trend": [79, 79, 81, 83, 75, 85, 91, 79],
+    "contributors": {
+      "activity_balance": 90,
+      "body_temperature": 100,
+      "hrv_balance": 90,
+      "previous_day_activity": 87,
+      "previous_night": 65,
+      "recovery_index": 66,
+      "resting_heart_rate": 73,
+      "sleep_balance": 79,
+      "sleep_regularity": 89
+    }
+  },
+  "sleep": {
+    "score": 72,
+    "trend": [75, 64, 76, 77, 69, 82, 82, 72],
+    "contributors": {
+      "deep_sleep": 96,
+      "efficiency": 79,
+      "latency": 15,
+      "rem_sleep": 60,
+      "restfulness": 71,
+      "timing": 89,
+      "total_sleep": 78
+    }
+  },
+  "nutrition": {
+    "calories_logged": 0,
+    "calories_target": 1752.91,
+    "protein_logged": 0,
+    "protein_target": 150,
+    "water_logged": 0,
+    "water_target": 125
+  },
+  "training": {
+    "sessions_7d": 1,
+    "last_workout": {
+      "date": "2026-11-15",
+      "title": "Strength \u2014 Full Body (posterior chain test)"
+    }
+  },
+  "weight": {
+    "latest": 185.65,
+    "prior": 185.23,
+    "unit": "lb"
+  },
+  "trend": {
+    "trend_weight": 187.04,
+    "weekly_rate_lb": -0.458,
+    "goal_weight": 155,
+    "goal_date": "2027-06-01",
+    "projected_goal_date": "2028-03-19",
+    "on_pace": false,
+    "note": "EMA trend weight at 187.0 lb, down from 187.96 lb 14 days ago; rate eased from -0.56 to -0.46 lb/wk, pushing the 155 lb projection to mid-March 2028, about 9 months past the June 2027 goal."
+  },
+  "streak": {
+    "current_streak": 2,
+    "status": "Light",
+    "message": "You trained yesterday and readiness sits at a solid 79 \u2014 body's recovering well, no need to force another hard session today; let it count and keep the rhythm going."
+  }
+}
