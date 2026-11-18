@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-17",
+  "focus": "Trend weight is ~187 lb and only dropping ~0.4 lb/wk — at that rate you land near May 2028, not June 2027. Hitting 155 lb by June 1 needs roughly 1.1 lb/wk from here, well over double the current pace. Readiness (76) and sleep (67) are fine; this is a deficit problem, not a recovery one.",
+  "readiness": {
+    "score": 76,
+    "trend": [79, 81, 83, 75, 85, 91, 79, 76],
+    "contributors": {
+      "activity_balance": 100,
+      "body_temperature": 100,
+      "hrv_balance": 91,
+      "previous_day_activity": 74,
+      "previous_night": 53,
+      "recovery_index": 40,
+      "resting_heart_rate": 81,
+      "sleep_balance": 79,
+      "sleep_regularity": 89
+    }
+  },
+  "sleep": {
+    "score": 67,
+    "trend": [64, 76, 77, 69, 82, 82, 72, 67],
+    "contributors": {
+      "deep_sleep": 90,
+      "efficiency": 83,
+      "latency": 46,
+      "rem_sleep": 78,
+      "restfulness": 62,
+      "timing": 92,
+      "total_sleep": 53
+    }
+  },
+  "nutrition": {
+    "calories_logged": 0,
+    "calories_target": 1752.91,
+    "protein_logged": 0,
+    "protein_target": 150,
+    "water_logged": 0,
+    "water_target": 125
+  },
+  "training": {
+    "sessions_7d": 1,
+    "last_workout": {"date": "2026-11-15", "title": "Strength — Full Body (posterior chain test)"}
+  },
+  "weight": {
+    "latest": 185.8,
+    "prior": 184.93,
+    "unit": "lb"
+  },
+  "trend": {
+    "trend_weight": 186.94,
+    "weekly_rate_lb": -0.4,
+    "goal_weight": 155,
+    "goal_date": "2027-06-01",
+    "projected_goal_date": "2028-05-27",
+    "on_pace": false,
+    "note": "Smoothed EMA trend weight; needs ~1.1 lb/wk to hit 155 by 6/1/27, currently tracking ~0.4 lb/wk."
+  },
+  "streak": {
+    "current_streak": 3,
+    "status": "Light",
+    "message": "Two days out from your last session and sleep's been just okay — a light session fits today, no need to force intensity. Streak holds; this isn't a day to feel behind on."
+  }
+}
