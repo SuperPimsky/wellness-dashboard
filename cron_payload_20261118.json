@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-18",
+  "focus": "Trend weight is 186.7 lb, down only ~0.44 lb/wk — at that pace you hit 155 lb around April 2028, not June 2027. You need roughly 1.1 lb/wk from here, more than double current pace. Readiness (88) and sleep (86) are both strong today, so this is a calorie-deficit problem, not a recovery one — tighten logging and intake.",
+  "readiness": {
+    "score": 88,
+    "trend": [81, 83, 75, 85, 91, 79, 76, 88],
+    "contributors": {
+      "activity_balance": 95,
+      "body_temperature": 100,
+      "hrv_balance": 90,
+      "previous_day_activity": 77,
+      "previous_night": 100,
+      "recovery_index": 60,
+      "resting_heart_rate": 98,
+      "sleep_balance": 87,
+      "sleep_regularity": 89
+    }
+  },
+  "sleep": {
+    "score": 86,
+    "trend": [76, 77, 69, 82, 82, 72, 67, 86],
+    "contributors": {
+      "deep_sleep": 96,
+      "efficiency": 96,
+      "latency": 91,
+      "rem_sleep": 95,
+      "restfulness": 80,
+      "timing": 79,
+      "total_sleep": 80
+    }
+  },
+  "nutrition": {
+    "calories_logged": 0,
+    "calories_target": 1752.91,
+    "protein_logged": 0,
+    "protein_target": 150,
+    "water_logged": 0,
+    "water_target": 125
+  },
+  "training": {
+    "sessions_7d": 1,
+    "last_workout": {"date": "2026-11-15", "title": "Strength — Full Body (posterior chain test)"}
+  },
+  "weight": {
+    "latest": 184.4,
+    "prior": 186.0,
+    "unit": "lb"
+  },
+  "trend": {
+    "trend_weight": 186.68,
+    "weekly_rate_lb": -0.44,
+    "goal_weight": 155,
+    "goal_date": "2027-06-01",
+    "projected_goal_date": "2028-04-05",
+    "on_pace": false,
+    "note": "Smoothed EMA trend weight; needs ~1.1 lb/wk to hit 155 by 6/1/27, currently tracking ~0.44 lb/wk."
+  },
+  "streak": {
+    "current_streak": 4,
+    "status": "Push",
+    "message": "Three days out from your last session and readiness/sleep are both high — body's ready, good day to push. The rest days in between were the right call, not a gap to feel behind on."
+  }
+}
