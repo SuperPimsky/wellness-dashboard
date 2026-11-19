@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-19",
+  "focus": "Trend weight is 186.5 lb, drifting down only ~0.53 lb/wk \u2014 at that pace you hit 155 lb around January 2028, seven months past your June 2027 target. You need close to double the current rate. Readiness dipped to 73 this morning on a rough night of sleep (REM and total sleep both low), so ease into today, but the real lever is still calorie logging and intake, not recovery.",
+  "readiness": {
+    "score": 73,
+    "trend": [83, 75, 85, 91, 79, 76, 88, 73],
+    "contributors": {
+      "activity_balance": 96,
+      "body_temperature": 95,
+      "hrv_balance": 90,
+      "previous_day_activity": 77,
+      "previous_night": 42,
+      "recovery_index": 57,
+      "resting_heart_rate": 73,
+      "sleep_balance": 71,
+      "sleep_regularity": 89
+    }
+  },
+  "sleep": {
+    "score": 63,
+    "trend": [77, 69, 82, 82, 72, 67, 86, 63],
+    "contributors": {
+      "deep_sleep": 70,
+      "efficiency": 88,
+      "latency": 91,
+      "rem_sleep": 39,
+      "restfulness": 85,
+      "timing": 68,
+      "total_sleep": 42
+    }
+  },
+  "nutrition": {
+    "calories_logged": 0,
+    "calories_target": 1752.91,
+    "protein_logged": 0,
+    "protein_target": 150,
+    "water_logged": 0,
+    "water_target": 125
+  },
+  "training": {
+    "sessions_7d": 1,
+    "last_workout": {
+      "date": "2026-11-15",
+      "title": "Strength \u2014 Full Body (posterior chain test)"
+    }
+  },
+  "weight": {
+    "latest": 184.4,
+    "prior": 187.1,
+    "unit": "lb"
+  },
+  "trend": {
+    "trend_weight": 186.45,
+    "weekly_rate_lb": -0.53,
+    "goal_weight": 155,
+    "goal_date": "2027-06-01",
+    "projected_goal_date": "2028-01-07",
+    "on_pace": false,
+    "note": "Smoothed EMA trend weight; needs ~1.1 lb/wk to hit 155 by 6/1/27, currently tracking ~0.53 lb/wk."
+  },
+  "streak": {
+    "current_streak": 5,
+    "status": "Light",
+    "message": "It's been 4 days since your last session, but last night's sleep was rough (low REM, low total sleep) and readiness dipped to 73 \u2014 keep today light and technical rather than forcing a max effort, your body earned the easier day."
+  }
+}
