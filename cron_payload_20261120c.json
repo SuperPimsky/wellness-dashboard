@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-20",
+  "focus": "Readiness is strong today (85) but it's been 5 days since your last session (11/15) \u2014 no reason not to train. The weight trend is still the real story: smoothed trend weight is 186.3 lb, dropping only ~0.5 lb/wk when you need roughly double that to hit 155 by June 2027. Nothing logged in FoodNoms yet today either.",
+  "readiness": {
+    "score": 85,
+    "trend": [75, 85, 91, 79, 76, 88, 81, 85],
+    "contributors": {
+      "activity_balance": 97,
+      "body_temperature": 95,
+      "hrv_balance": 89,
+      "previous_day_activity": 79,
+      "previous_night": 90,
+      "recovery_index": 70,
+      "resting_heart_rate": 81,
+      "sleep_balance": 82,
+      "sleep_regularity": 89
+    }
+  },
+  "sleep": {
+    "score": 82,
+    "trend": [69, 82, 82, 72, 67, 86, 76, 82],
+    "contributors": {
+      "deep_sleep": 96,
+      "efficiency": 93,
+      "latency": 86,
+      "rem_sleep": 75,
+      "restfulness": 76,
+      "timing": 100,
+      "total_sleep": 73
+    }
+  },
+  "nutrition": {
+    "calories_logged": 0,
+    "calories_target": 1752.91,
+    "protein_logged": 0,
+    "protein_target": 150,
+    "water_logged": 0,
+    "water_target": 125
+  },
+  "training": {
+    "sessions_7d": 1,
+    "last_workout": {
+      "date": "2026-11-15",
+      "title": "Strength \u2014 Full Body (posterior chain test)"
+    }
+  },
+  "weight": {
+    "latest": 184.2,
+    "prior": 186.8,
+    "unit": "lb"
+  },
+  "trend": {
+    "trend_weight": 186.3,
+    "weekly_rate_lb": -0.5,
+    "goal_weight": 155,
+    "goal_date": "2027-06-01",
+    "projected_goal_date": "2028-02-01",
+    "on_pace": false,
+    "note": "Smoothed EMA trend weight; needs ~1.1 lb/wk to hit 155 by 6/1/27, currently tracking ~0.5 lb/wk."
+  },
+  "streak": {
+    "current_streak": 5,
+    "status": "Push",
+    "message": "Readiness is excellent at 85 and it's been 5 days since your last session \u2014 you're well rested, good day to get back under the bar."
+  }
+}
