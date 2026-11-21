@@ -1,32 +1,32 @@
 {
-  "date": "2026-11-08",
-  "focus": "Readiness fell to 56 this morning off a rough night (sleep score 59, latency and recovery index both tanked) \u2014 take it easy today, don't force a session. Separately, you're 14 days out from your last workout (Oct 25); once you're recovered, get back on the program.",
+  "date": "2026-11-21",
+  "focus": "Rough night \u2014 sleep cratered to 31 (only 15% total-sleep contributor) and readiness followed it down to 62, the lowest of the week. Today's a recovery day, not a training day; reassess tomorrow once you've actually slept.",
   "readiness": {
-    "score": 56,
-    "trend": [86, 71, 90, 84, 82, 77, 86, 56],
+    "score": 62,
+    "trend": [85, 91, 79, 76, 88, 81, 85, 62],
     "contributors": {
-      "activity_balance": 98,
-      "body_temperature": 100,
-      "hrv_balance": 74,
-      "previous_day_activity": 84,
-      "previous_night": 32,
-      "recovery_index": 22,
-      "resting_heart_rate": 6,
-      "sleep_balance": 67,
-      "sleep_regularity": 87
+      "activity_balance": 96,
+      "body_temperature": 97,
+      "hrv_balance": 93,
+      "previous_day_activity": 79,
+      "previous_night": 1,
+      "recovery_index": 39,
+      "resting_heart_rate": 56,
+      "sleep_balance": 60,
+      "sleep_regularity": 89
     }
   },
   "sleep": {
-    "score": 59,
-    "trend": [86, 61, 83, 76, 74, 79, 93, 59],
+    "score": 31,
+    "trend": [82, 82, 72, 67, 86, 76, 82, 31],
     "contributors": {
-      "deep_sleep": 84,
-      "efficiency": 83,
-      "latency": 17,
-      "rem_sleep": 52,
-      "restfulness": 61,
-      "timing": 58,
-      "total_sleep": 57
+      "deep_sleep": 38,
+      "efficiency": 41,
+      "latency": 89,
+      "rem_sleep": 15,
+      "restfulness": 52,
+      "timing": 1,
+      "total_sleep": 15
     }
   },
   "nutrition": {
@@ -38,29 +38,29 @@
     "water_target": 125
   },
   "training": {
-    "sessions_7d": 0,
+    "sessions_7d": 1,
     "last_workout": {
-      "date": "2026-10-25",
+      "date": "2026-11-15",
       "title": "Strength \u2014 Full Body (posterior chain test)"
     }
   },
   "weight": {
-    "latest": 189.3,
-    "prior": 189.2,
+    "latest": 184.2,
+    "prior": 186.8,
     "unit": "lb"
   },
   "trend": {
-    "trend_weight": 187.78,
-    "weekly_rate_lb": -1.04,
+    "trend_weight": 186.27,
+    "weekly_rate_lb": -0.59,
     "goal_weight": 155,
     "goal_date": "2027-06-01",
-    "projected_goal_date": "2027-06-16",
+    "projected_goal_date": "2027-11-29",
     "on_pace": false,
-    "note": "Smoothed trend (EMA, Happy Scale-style) filters day-to-day water/food noise out of the raw scale number. Current pace slips the goal by about two weeks \u2014 close, not a red flag."
+    "note": "Smoothed trend (EMA, Happy Scale-style) off raw Withings weigh-ins, last 45 days. Current pace projects past the June 2027 goal date by about 6 months."
   },
   "streak": {
     "current_streak": 0,
     "status": "Rest",
-    "message": "Readiness and sleep both dipped hard overnight, so sitting this one out is the right call \u2014 no guilt needed. It's been a couple weeks since your last session; whenever recovery bounces back, that's the day to restart, not today."
+    "message": "Last night was a wreck, sleep-wise \u2014 today's a legitimate rest day, not a gap in the streak. Get a real night's sleep and ease back into training when you feel it."
   }
 }
