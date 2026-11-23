@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-23",
+  "focus": "Trend weight is 186.2 lb, drifting down only ~0.7 lb/wk \u2014 hitting 155 by June 2027 needs roughly 1.1-1.2 lb/wk from here, so at the current pace you land around October 2027, about 4 months late. Nothing acute wrong today, just the deficit's been too soft to hold the June date.",
+  "readiness": {
+    "score": 76,
+    "trend": [79, 76, 88, 81, 85, 93, 68, 76],
+    "contributors": {
+      "activity_balance": 98,
+      "body_temperature": 99,
+      "hrv_balance": 88,
+      "previous_day_activity": 88,
+      "previous_night": 53,
+      "recovery_index": 50,
+      "resting_heart_rate": 66,
+      "sleep_balance": 81,
+      "sleep_regularity": 89
+    }
+  },
+  "sleep": {
+    "score": 68,
+    "trend": [72, 67, 86, 76, 82, 90, 89, 68],
+    "contributors": {
+      "deep_sleep": 65,
+      "efficiency": 93,
+      "latency": 86,
+      "rem_sleep": 42,
+      "restfulness": 87,
+      "timing": 77,
+      "total_sleep": 52
+    }
+  },
+  "nutrition": {
+    "calories_logged": 0,
+    "calories_target": 1752.91,
+    "protein_logged": 0,
+    "protein_target": 150,
+    "water_logged": 0,
+    "water_target": 125
+  },
+  "training": {
+    "sessions_7d": 1,
+    "last_workout": {
+      "date": "2026-11-22",
+      "title": "Upper Focus \u2014 Light (legs sore, swapped 11/22)"
+    }
+  },
+  "weight": {
+    "latest": 186.53,
+    "prior": 187.52,
+    "unit": "lb"
+  },
+  "trend": {
+    "trend_weight": 186.15,
+    "weekly_rate_lb": -0.683,
+    "goal_weight": 155,
+    "goal_date": "2027-06-01",
+    "projected_goal_date": "2027-10-08",
+    "on_pace": false,
+    "note": "EMA-smoothed trend weight (Happy Scale-style) off the last 45 days of Withings data. Current pace is roughly half the ~1.1-1.2 lb/wk needed to hit 155 by June 2027."
+  },
+  "streak": {
+    "current_streak": 3,
+    "status": "Light",
+    "message": "Readiness bounced back to 76 and yesterday's light upper session was the right call with legs still sore \u2014 that holds the streak, not a gap. Sleep dipped (68, REM a bit short) so keep today easy and let it rebuild."
+  }
+}
