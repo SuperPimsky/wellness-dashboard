@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-23",
+  "focus": "Trend weight is 186.1 lb, drifting down only ~0.7 lb/wk \u2014 hitting 155 by June 2027 needs roughly 1.1-1.2 lb/wk from here, so at the current pace you land around October 2027, about 4 months late. Nothing acute wrong, but the deficit has been too soft to hold the June date.",
+  "readiness": {
+    "score": 68,
+    "trend": [91, 79, 76, 88, 81, 85, 93, 68],
+    "contributors": {
+      "activity_balance": 94,
+      "body_temperature": 83,
+      "hrv_balance": 75,
+      "previous_day_activity": 39,
+      "previous_night": 100,
+      "recovery_index": 72,
+      "resting_heart_rate": 1,
+      "sleep_balance": 81,
+      "sleep_regularity": 89
+    }
+  },
+  "sleep": {
+    "score": 89,
+    "trend": [82, 72, 67, 86, 76, 82, 90, 89],
+    "contributors": {
+      "deep_sleep": 95,
+      "efficiency": 88,
+      "latency": 97,
+      "rem_sleep": 92,
+      "restfulness": 75,
+      "timing": 100,
+      "total_sleep": 87
+    }
+  },
+  "nutrition": {
+    "calories_logged": 0,
+    "calories_target": 1752.91,
+    "protein_logged": 0,
+    "protein_target": 150,
+    "water_logged": 0,
+    "water_target": 125
+  },
+  "training": {
+    "sessions_7d": 1,
+    "last_workout": {
+      "date": "2026-11-22",
+      "title": "Upper Focus \u2014 Light (legs sore, swapped 11/22)"
+    }
+  },
+  "weight": {
+    "latest": 186.5,
+    "prior": 186.7,
+    "unit": "lb"
+  },
+  "trend": {
+    "trend_weight": 186.09,
+    "weekly_rate_lb": -0.682,
+    "goal_weight": 155,
+    "goal_date": "2027-06-01",
+    "projected_goal_date": "2027-10-07",
+    "on_pace": false,
+    "note": "EMA-smoothed trend weight (Happy Scale-style) off the last 45 days of Withings data. Current pace is roughly half the ~1.1-1.2 lb/wk needed to hit 155 by June 2027."
+  },
+  "streak": {
+    "current_streak": 2,
+    "status": "Light",
+    "message": "Yesterday's light upper session was the right call with sore legs and readiness at 68 \u2014 that counts, not a gap. Sleep was excellent (89) so the tank's there; ease back in rather than forcing a hard day right after."
+  }
+}
