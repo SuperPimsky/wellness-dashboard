@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-24",
+  "focus": "Weight trend is still drifting off the June 2027 goal: trend weight is 186.4 lb and falling only -0.55 lb/wk, which lands at 155 lb around late December 2027 — about 7 months late. The deficit needs to roughly double to get back on pace. Readiness (89) and sleep (85) are both strong, so the body can handle tightening intake or adding a session this week to close the gap.",
+  "readiness": {
+    "score": 89,
+    "trend": [79, 76, 88, 81, 85, 93, 68, 89],
+    "contributors": {
+      "activity_balance": 98,
+      "body_temperature": 99,
+      "hrv_balance": 88,
+      "previous_day_activity": 88,
+      "previous_night": 96,
+      "recovery_index": 52,
+      "resting_heart_rate": 99,
+      "sleep_balance": 90,
+      "sleep_regularity": 89
+    }
+  },
+  "sleep": {
+    "score": 85,
+    "trend": [72, 67, 86, 76, 82, 90, 89, 85],
+    "contributors": {
+      "deep_sleep": 79,
+      "efficiency": 90,
+      "latency": 86,
+      "rem_sleep": 62,
+      "restfulness": 84,
+      "timing": 100,
+      "total_sleep": 88
+    }
+  },
+  "nutrition": {
+    "calories_logged": 0,
+    "calories_target": 1752.91,
+    "protein_logged": 0,
+    "protein_target": 150,
+    "water_logged": 0,
+    "water_target": 125
+  },
+  "training": {
+    "sessions_7d": 1,
+    "last_workout": {
+      "date": "2026-11-22",
+      "title": "Upper Focus — Light (legs sore, swapped 11/22)"
+    }
+  },
+  "weight": {
+    "latest": 189.0,
+    "prior": 187.5,
+    "unit": "lb"
+  },
+  "trend": {
+    "trend_weight": 186.4,
+    "weekly_rate_lb": -0.55,
+    "goal_weight": 155,
+    "goal_date": "2027-06-01",
+    "projected_goal_date": "2027-12-27",
+    "on_pace": false,
+    "note": "Smoothed EMA trend weight (Happy Scale-style) filters day-to-day water/food noise. Current pace of -0.55 lb/wk is less than half the ~-1.15 lb/wk needed to hit 155 lb by June 2027."
+  },
+  "streak": {
+    "current_streak": 3,
+    "status": "Push",
+    "message": "Two days clear of Saturday's light session and readiness is still strong at 89 — body's recovered and ready for a real session today, no guilt needed for the rest."
+  }
+}
