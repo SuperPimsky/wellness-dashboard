@@ -1,32 +1,32 @@
 {
-  "date": "2026-11-21",
-  "focus": "Rough night \u2014 sleep cratered to 31 (only 15% total-sleep contributor) and readiness followed it down to 62, the lowest of the week. Today's a recovery day, not a training day; reassess tomorrow once you've actually slept.",
+  "date": "2026-11-24",
+  "focus": "Weight trend has drifted off pace: trend weight is 186.5 lb, dropping only ~0.5 lb/week — about half the ~1 lb/week pace needed for 155 by June 2027. At this rate goal slips to roughly Feb 2028. Readiness (87) and training are solid; the lever here is calories, not rest.",
   "readiness": {
-    "score": 62,
-    "trend": [85, 91, 79, 76, 88, 81, 85, 62],
+    "score": 87,
+    "trend": [76, 88, 81, 85, 93, 68, 89, 87],
     "contributors": {
-      "activity_balance": 96,
-      "body_temperature": 97,
-      "hrv_balance": 93,
-      "previous_day_activity": 79,
-      "previous_night": 1,
-      "recovery_index": 39,
-      "resting_heart_rate": 56,
-      "sleep_balance": 60,
+      "activity_balance": 97,
+      "body_temperature": 91,
+      "hrv_balance": 83,
+      "previous_day_activity": 83,
+      "previous_night": 76,
+      "recovery_index": 100,
+      "resting_heart_rate": 91,
+      "sleep_balance": 86,
       "sleep_regularity": 89
     }
   },
   "sleep": {
-    "score": 31,
-    "trend": [82, 82, 72, 67, 86, 76, 82, 31],
+    "score": 77,
+    "trend": [67, 86, 76, 82, 90, 89, 85, 77],
     "contributors": {
-      "deep_sleep": 38,
-      "efficiency": 41,
-      "latency": 89,
-      "rem_sleep": 15,
-      "restfulness": 52,
-      "timing": 1,
-      "total_sleep": 15
+      "deep_sleep": 96,
+      "efficiency": 83,
+      "latency": 37,
+      "rem_sleep": 96,
+      "restfulness": 86,
+      "timing": 97,
+      "total_sleep": 65
     }
   },
   "nutrition": {
@@ -40,27 +40,27 @@
   "training": {
     "sessions_7d": 1,
     "last_workout": {
-      "date": "2026-11-15",
-      "title": "Strength \u2014 Full Body (posterior chain test)"
+      "date": "2026-11-22",
+      "title": "Upper Focus — Light (legs sore, swapped 11/22)"
     }
   },
   "weight": {
-    "latest": 184.2,
-    "prior": 186.8,
+    "latest": 187.1,
+    "prior": 186.9,
     "unit": "lb"
   },
   "trend": {
-    "trend_weight": 186.27,
-    "weekly_rate_lb": -0.59,
+    "trend_weight": 186.5,
+    "weekly_rate_lb": -0.49,
     "goal_weight": 155,
     "goal_date": "2027-06-01",
-    "projected_goal_date": "2027-11-29",
+    "projected_goal_date": "2028-02-12",
     "on_pace": false,
-    "note": "Smoothed trend (EMA, Happy Scale-style) off raw Withings weigh-ins, last 45 days. Current pace projects past the June 2027 goal date by about 6 months."
+    "note": "Smoothed EMA trend (Happy Scale-style) off raw Withings readings, last 45 days, forward-filled on no-weigh-in days."
   },
   "streak": {
-    "current_streak": 0,
-    "status": "Rest",
-    "message": "Last night was a wreck, sleep-wise \u2014 today's a legitimate rest day, not a gap in the streak. Get a real night's sleep and ease back into training when you feel it."
+    "current_streak": 3,
+    "status": "Push",
+    "message": "Two days since your last session and readiness is sitting at 87 — body's ready to go again. The rest since Sunday's workout was the right call, not a skip, so the streak holds."
   }
 }
