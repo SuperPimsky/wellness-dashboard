@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-25",
+  "focus": "Weight trend is coasting at -0.45 lb/wk, well under the ~1.2 lb/wk pace needed for 155 by June 2027 \u2014 at this rate you arrive around April 2028. Readiness (89) and sleep (81) are strong, so recovery isn't the limiter; nothing logged in FoodNoms yet today and only 1 training session in the last 7 days are the levers to pull.",
+  "readiness": {
+    "score": 89,
+    "trend": [88, 81, 85, 93, 68, 89, 87, 89],
+    "contributors": {
+      "activity_balance": 98,
+      "body_temperature": 100,
+      "hrv_balance": 70,
+      "previous_day_activity": 83,
+      "previous_night": 86,
+      "recovery_index": 100,
+      "resting_heart_rate": 100,
+      "sleep_balance": 95,
+      "sleep_regularity": 87
+    }
+  },
+  "sleep": {
+    "score": 81,
+    "trend": [86, 76, 82, 90, 89, 85, 77, 81],
+    "contributors": {
+      "deep_sleep": 97,
+      "efficiency": 81,
+      "latency": 48,
+      "rem_sleep": 79,
+      "restfulness": 74,
+      "timing": 100,
+      "total_sleep": 84
+    }
+  },
+  "nutrition": {
+    "calories_logged": 0,
+    "calories_target": 1752.91,
+    "protein_logged": 0,
+    "protein_target": 150,
+    "water_logged": 0,
+    "water_target": 125
+  },
+  "training": {
+    "sessions_7d": 1,
+    "last_workout": {
+      "date": "2026-11-22",
+      "title": "Upper Focus \u2014 Light (legs sore, swapped 11/22)"
+    }
+  },
+  "weight": {
+    "latest": 187.1,
+    "prior": 186.9,
+    "unit": "lb"
+  },
+  "trend": {
+    "trend_weight": 186.5,
+    "weekly_rate_lb": -0.45,
+    "goal_weight": 155,
+    "goal_date": "2027-06-01",
+    "projected_goal_date": "2028-04-01",
+    "on_pace": false,
+    "note": "EMA trend (Happy Scale-style). Current pace of -0.45 lb/wk is well under the ~1.2 lb/wk needed to hit 155 by June 2027."
+  },
+  "streak": {
+    "current_streak": 3,
+    "status": "Push",
+    "message": "Readiness is 89 and sleep held at 81 \u2014 it's been 3 days since Sunday's light session, and the body's clearly recovered. That gap was earned rest, not a drop-off, so today's a good call to train."
+  }
+}
