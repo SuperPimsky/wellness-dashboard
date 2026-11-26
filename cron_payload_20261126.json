@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-26",
+  "focus": "HRV balance has slid three nights straight (88\u219283\u219270) even as readiness holds strong at 89 \u2014 not alarming yet, but don't stack hard training on top of it blind. Bigger issue: weight is losing at ~0.4 lb/wk vs the 1 lb/wk pace the goal needs, projecting a 2028 finish instead of June 2027.",
+  "readiness": {
+    "score": 89,
+    "trend": [88, 81, 85, 93, 68, 89, 87, 89],
+    "contributors": {
+      "activity_balance": 98,
+      "body_temperature": 100,
+      "hrv_balance": 70,
+      "previous_day_activity": 83,
+      "previous_night": 86,
+      "recovery_index": 100,
+      "resting_heart_rate": 100,
+      "sleep_balance": 95,
+      "sleep_regularity": 87
+    }
+  },
+  "sleep": {
+    "score": 81,
+    "trend": [86, 76, 82, 90, 89, 85, 77, 81],
+    "contributors": {
+      "deep_sleep": 97,
+      "efficiency": 81,
+      "latency": 48,
+      "rem_sleep": 79,
+      "restfulness": 74,
+      "timing": 100,
+      "total_sleep": 84
+    }
+  },
+  "nutrition": {
+    "calories_logged": 0,
+    "calories_target": 1752.91,
+    "protein_logged": 0,
+    "protein_target": 150,
+    "water_logged": 0,
+    "water_target": 125
+  },
+  "training": {
+    "sessions_7d": 1,
+    "last_workout": {
+      "date": "2026-11-22",
+      "title": "Upper Focus \u2014 Light (legs sore, swapped 11/22)"
+    }
+  },
+  "weight": {
+    "latest": 187.1,
+    "prior": 187.7,
+    "unit": "lb"
+  },
+  "trend": {
+    "trend_weight": 186.6,
+    "weekly_rate_lb": -0.43,
+    "goal_weight": 155,
+    "goal_date": "2027-06-01",
+    "projected_goal_date": "2028-04-20",
+    "on_pace": false,
+    "note": "Trend-weight loss has slowed to about 0.4 lb/wk, under half the 1 lb/wk pace the June 2027 goal needs."
+  },
+  "streak": {
+    "current_streak": 4,
+    "status": "Push",
+    "message": "Readiness is 89 and sleep held at 81 \u2014 it's been 4 days since the light session on the 22nd, and the body looks fully recovered. That gap was earned rest, not a slide; today's a good day to get back under the bar."
+  }
+}
