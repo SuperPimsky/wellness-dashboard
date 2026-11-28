@@ -1,84 +1,66 @@
 {
-  "date": "2026-10-31",
-  "focus": "Readiness dropped to 64 this morning off a rough night \u2014 sleep score only 50, with the previous-night contributor at just 10 and REM badly disrupted. That's the signal that matters today: back off, don't push. Weight pace is still a secondary issue \u2014 trend weight 188.9 lb, dropping ~0.6 lb/wk vs the ~1.0 lb/wk needed for 155 by June 2027 \u2014 but that's a slower-burn fix, not today's call.",
+  "date": "2026-11-28",
+  "focus": "Readiness has slid three days straight (89\u219289\u219280\u219270) and last night's sleep cratered to a 65 \u2014 the total-sleep contributor is only 31, meaning you were genuinely short on sleep, not just restless. This is a real fatigue signal, not noise. Keep today light and get to bed early tonight.",
   "readiness": {
-    "score": 64,
-    "trend": [
-      85,
-      90,
-      71,
-      86,
-      86,
-      86,
-      81,
-      64
-    ],
+    "score": 70,
+    "trend": [93, 68, 89, 87, 89, 89, 80, 70],
     "contributors": {
-      "activity_balance": 97,
-      "body_temperature": 98,
-      "hrv_balance": 81,
-      "previous_day_activity": 80,
-      "previous_night": 10,
-      "recovery_index": 59,
-      "resting_heart_rate": 55,
-      "sleep_balance": 62,
-      "sleep_regularity": 89
+      "activity_balance": 93,
+      "body_temperature": 100,
+      "hrv_balance": 78,
+      "previous_day_activity": 89,
+      "previous_night": 46,
+      "recovery_index": 43,
+      "resting_heart_rate": 56,
+      "sleep_balance": 81,
+      "sleep_regularity": 87
     }
   },
   "sleep": {
-    "score": 50,
-    "trend": [
-      85,
-      90,
-      64,
-      73,
-      77,
-      74,
-      71,
-      50
-    ],
+    "score": 65,
+    "trend": [90, 89, 85, 77, 81, 87, 78, 65],
     "contributors": {
-      "deep_sleep": 51,
-      "efficiency": 55,
-      "latency": 86,
-      "rem_sleep": 11,
-      "restfulness": 74,
-      "timing": 100,
-      "total_sleep": 25
+      "deep_sleep": 84,
+      "efficiency": 98,
+      "latency": 89,
+      "rem_sleep": 48,
+      "restfulness": 89,
+      "timing": 93,
+      "total_sleep": 31
     }
   },
   "nutrition": {
-    "calories_logged": 0.0,
+    "calories_logged": 0,
     "calories_target": 1752.91,
-    "protein_logged": 0.0,
+    "protein_logged": 0,
     "protein_target": 150,
-    "water_logged": 0.0,
+    "water_logged": 0,
     "water_target": 125
   },
   "training": {
-    "sessions_7d": 1,
+    "sessions_7d": 2,
     "last_workout": {
-      "date": "2026-10-25",
-      "title": "Strength \u2014 Full Body (posterior chain test)"
+      "date": "2026-11-26",
+      "title": "Full Body Circuit \u2014 Calorie Burn (Thanksgiving swap, Thu 11/26)"
     }
   },
   "weight": {
-    "latest": 186.9,
-    "prior": 189.8,
+    "latest": 186.1,
+    "prior": 186.6,
     "unit": "lb"
   },
   "trend": {
-    "trend_weight": 188.85,
-    "weekly_rate_lb": -0.62,
+    "trend_weight": 186.43,
+    "weekly_rate_lb": -0.44,
     "goal_weight": 155,
     "goal_date": "2027-06-01",
-    "projected_goal_date": "2027-11-17",
+    "projected_goal_date": "2028-04-07",
     "on_pace": false,
-    "note": "Smoothed trend (EMA, Happy Scale-style) filters day-to-day water/food noise out of the raw scale number. Current pace is roughly 60% of the rate needed to hit 155 lb by June 2027."
+    "note": "Smoothed weekly loss is only -0.44 lb/wk vs. the ~2.4 lb/wk pace needed to hit 155 by June 2027 \u2014 at the current rate, projecting out to April 2028."
   },
   "streak": {
     "current_streak": 3,
     "status": "Rest",
-    "message": "Holding at 3 \u2014 last night was a genuinely bad one for sleep (score 50, almost no REM), and readiness followed it down to 64. That's exactly what a rest day looks like, not a gap in the streak. Train when a real recovered day shows up, not today."
+    "message": "Rough sleep and a 3-day readiness slide make today's lighter load the right call, not a cop-out \u2014 you've still trained twice this week, Thanksgiving week included. Streak holds."
   }
 }
